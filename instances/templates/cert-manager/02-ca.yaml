@@ -1,3 +1,4 @@
+{{ if eq .Values.tools.enabled true }}
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
@@ -19,3 +20,4 @@ spec:
     name: selfsigned-issuer 
     kind: ClusterIssuer
     group: cert-manager.io
+{{end}}
