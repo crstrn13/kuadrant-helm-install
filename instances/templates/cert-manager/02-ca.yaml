@@ -20,4 +20,4 @@ spec:
     name: selfsigned-issuer 
     kind: ClusterIssuer
     group: cert-manager.io
-{{end}}
+{{ end }}
